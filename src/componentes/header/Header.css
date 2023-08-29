@@ -10,7 +10,7 @@ header{
     
   }
   .logo{
-    background: url("../public/images-removebg-preview.png");
+    background: url("/images-removebg-preview.png");
     height: 150px;
     width: 370px;
     background-repeat: no-repeat;
