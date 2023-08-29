@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+main{
+    background-color: white;
+    color:black;
+    height: 722px;
+  
+
+}
+.foto{
+    background: url("../public/vit-removebg-preview.png");
+    height: 900px;
+    width:1600px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+   
+}
+.leleco{
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    text-align: center;
+    color:#0abab5;
+}
+.vivi{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px 200px;
+    box-sizing: border-box;
+
+}
