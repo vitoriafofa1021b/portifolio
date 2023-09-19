@@ -1,35 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
-main{
-    background-color: white;
-    color:black;
-    height: 722px;
-  
+
+.content-main{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+
+
+/*gap: 20px;
+flex-wrap: wrap;
+justify-content: center;*/
 
 }
-.foto{
-    background: url("/vit-removebg-preview.png");
-    height: 900px;
-    width:1600px;
-    background-size:100%;
-    background-repeat: no-repeat;
-}
-
-.container{
-    display: flex;
+.barrapesquisa{
+    height: 30px;
+    border: 1px solid  #0abab5;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 1.4rem;
    
 }
-.leleco{
+.barrapesquisa:focus-visible{
+    outline: 1px solid  #0abab5;
+}
+.pesquisa{
+    padding: 50px;
     font-family: 'Dancing Script', cursive;
-    font-size: 90px;
+    font-size: 50px;
     text-align: center;
     color:#0abab5;
-}
-.vivi{
-    font-size: 25px;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0px 200px;
-    box-sizing: border-box;
-
 }
