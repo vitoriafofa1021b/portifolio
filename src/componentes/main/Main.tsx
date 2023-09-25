@@ -68,7 +68,7 @@ export default function Main(){
 },
 {
   id:10,
-  titulo:"VIAJEM",
+  titulo:"VIAGEM",
   sinopse:"Essa foto é de uma viajem que fiz com minha mãe para o Rio de Janeiro, tudo lá é incrivel, a comida, as praias e pontos turísticos.",
   imagem:"RIO.jpg" 
 },
