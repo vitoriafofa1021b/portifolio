@@ -7,7 +7,7 @@ type Projetoprops={
 
 }
 
-export default function Filme(props:Projetoprops){
+export default function Projeto(props:Projetoprops){
   return(
     <div className="projeto_content">
       <div className="foto_filme">

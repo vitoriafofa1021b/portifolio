@@ -31,60 +31,20 @@ header{
     color:black;
   }
   
-  .navbar1{
-    background-color:#ffffff;
-    height:40px;
-    margin-bottom:15px;
-    width:100px;
-    border-radius:20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .navbar1 a:hover {
-    color:gray;
-  }
-  .navbar2{
-    background-color: #ffffff;
-    height:40px;
-    margin-bottom:15px;
-    width:100px;
-    border-radius:20px;
-    margin-left:20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .navbar2 a:hover {
-    color:gray;
-  }
-  .navbar3{
-    background-color:#ffffff;
-    height:40px;
-    margin-bottom:15px;
-    width:100px;
-    border-radius:20px;
-    margin-left:20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .navbar3 a:hover {
-    color:gray;
-  }
-  .navbar4{
-    background-color:#ffffff;
-    height:40px;
-    margin-bottom:15px;
-    width:100px;
-    border-radius:20px;
-    margin-left:20px;
-    margin-right:200px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .navbar4 a:hover {
-    color:gray;
-  }
-  
+  header nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color: gray;
+}
