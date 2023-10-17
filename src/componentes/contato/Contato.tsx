@@ -18,9 +18,7 @@ function Contato(){
               <label htmlFor="mensagem">Mensagem</label>
               <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
             </div>
-            <div>
-            <button type="button">Enviar</button>
-            </div>
+      <button type="submit">Enviar</button>
           </form>
         </div>
       </main>
