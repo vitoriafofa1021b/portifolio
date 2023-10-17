@@ -40,9 +40,11 @@
     font-size: 18px;
     cursor: pointer;
     font-family: 'Dancing Script', cursive;
-   margin-left: 20px;
+   margin-left: 230px;
   }
   
   button[type="submit"]:hover {
     background-color:  #b7d5e5;
   }
+
+  
